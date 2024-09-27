@@ -5,6 +5,9 @@ import json
 import datetime
 import torch
 
+torch.backends.cuda.enable_mem_efficient_sdp(False)
+torch.backends.cuda.enable_flash_sdp(False)
+
 # 设置设备参数
 DEVICE = "cuda"  # 使用CUDA
 DEVICE_ID = "0"  # CUDA设备ID，如果未设置则为空
