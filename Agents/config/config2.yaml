@@ -1,0 +1,4 @@
+llm:
+  api_type: 'zhipuai'
+  api_key: '570845c8914e2d97536dc22d298e6ca9.sBRNO7XevkYHuRkI'
+  model: 'glm-4-flash'
